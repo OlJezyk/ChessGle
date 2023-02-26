@@ -1,0 +1,34 @@
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+}
+
+.black-tile {
+    background-color: #779556;
+    width: 100px;
+}
+
+.white-tile {
+    background-color: #ebecd0;
+    width: 100px;
+}
+
+.chess-piece {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+
+.chess-piece:hover {
+    cursor: grab;
+}
+
+.chess-piece:active {
+    cursor: grabbing;
+}
